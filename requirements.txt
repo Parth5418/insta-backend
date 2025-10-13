@@ -1,4 +1,4 @@
-fastapi
-uvicorn
 flask
 requests
+redis
+flask-limiter
