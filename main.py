@@ -10,7 +10,7 @@ CACHE = {}
 # ===============================
 # 🔧 CONFIGURATION
 # ===============================
-ACCESS_TOKEN = EAATj0Q4ULKsBPhasIcu4P9ZC5WZBeEko7Jqt0SZBAkoALzHYn2L69kDeSYOaRGfUtvxFiGvH3Ea6JiBgEhHexDZAl42EvsReFWtNmlC4L5W5jaBqpybQbMhMM9yyToDiAIc0UIv8M03LsI408NV1I46khxFhrZBEYrZAltlN5ZB5Qx0f4pYgQcJ5ND9jWyBAKrYZAeexFi1lzW8Kxlyo
+ACCESS_TOKEN = "EAATj0Q4ULKsBPhasIcu4P9ZC5WZBeEko7Jqt0SZBAkoALzHYn2L69kDeSYOaRGfUtvxFiGvH3Ea6JiBgEhHexDZAl42EvsReFWtNmlC4L5W5jaBqpybQbMhMM9yyToDiAIc0UIv8M03LsI408NV1I46khxFhrZBEYrZAltlN5ZB5Qx0f4pYgQcJ5ND9jWyBAKrYZAeexFi1lzW8Kxlyo"
 GRAPH_URL = "https://graph.facebook.com/v21.0"
 
 # ===============================
@@ -110,3 +110,4 @@ def home():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
