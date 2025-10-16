@@ -1,3 +1,5 @@
 Flask
 requests
 yt-dlp
+flask-limiter
+flask-cors
