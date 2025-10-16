@@ -1,10 +1,9 @@
-Insta downloader backend (no secret key)
+# Instagram Downloader Backend (Flask + Vercel)
 
-Deploy steps:
-1. Upload contents of this package to a GitHub repo or import into Vercel.
-2. (Optional) Set ACCESS_TOKEN in Vercel environment variables to enable Graph API features.
-3. Deploy and call /download?url=<instagram_url>
-
-Notes:
-- This package includes yt-dlp fallback which may be blocked by some hosting providers.
-- Keep monitoring for abuse and adjust rate limits.
+### 🚀 Deploy Guide
+1. Clone or upload this folder to Vercel.
+2. Add in Vercel Dashboard → Settings → Environment Variables:
+   - ACCESS_TOKEN = your long-lived Facebook Graph API token
+3. Deploy!
+4. Test endpoint:
+   https://your-app.vercel.app/download?url=https://www.instagram.com/reel/DPzRJUIkwFi/
